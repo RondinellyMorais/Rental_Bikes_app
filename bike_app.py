@@ -7,14 +7,9 @@ from sklearn.preprocessing import StandardScaler
 import pickle
 import plotly.express as px
 from datetime import datetime
-from PIL import Image
 
 st.set_page_config(layout='wide')
 
-foto = Image.open('bike_rental.jpg')
-st.image(foto,
-         caption='Logo do Streamlit',
-         use_column_width=False)
 
 st.write("""
 # Predicting demand to bike rentals App
